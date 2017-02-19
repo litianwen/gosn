@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:16
+-keep class cn.eoe.json.JSONActivity { <init>(...); }
+
+# onClick res/layout/activity_json.xml #generated:15
+-keepclassmembers class * { *** onClick_ReadJSON(...); }
+
+# onClick res/layout/activity_json.xml #generated:7
+-keepclassmembers class * { *** onClick_WriteJSON(...); }
+
